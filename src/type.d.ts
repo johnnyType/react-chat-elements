@@ -37,10 +37,10 @@ export interface IChatItemProps {
   unread?: number
   className?: string
   avatarFlexible?: boolean
-  avatarSize?: 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge';
+  avatarSize?: 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge'
   alt?: string
   title?: string
-  subtitle?: string
+  subtitle?: React.ElementType<any>[]
   date?: Date
   dateString?: string
   statusColor?: string
